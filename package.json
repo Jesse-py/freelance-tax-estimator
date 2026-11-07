@@ -1,0 +1,14 @@
+{
+  "name": "freelance-tax-estimator",
+  "version": "1.0.0",
+  "description": "US federal quarterly estimated tax for freelancers and the self-employed (2026, 2027): SE tax, QBI deduction, safe harbor, due dates. Zero dependencies. Library, CLI, and sourced JSON data.",
+  "main": "tax-engine.js",
+  "bin": { "freelance-tax": "cli.js" },
+  "files": ["tax-engine.js", "cli.js", "data/"],
+  "scripts": { "test": "node test.js", "build-data": "node build-data.js" },
+  "keywords": ["tax", "self-employment-tax", "estimated-tax", "1040-es", "freelance", "1099", "irs", "tax-brackets", "2026", "2027"],
+  "homepage": "https://github.com/Jesse-py/freelance-tax-estimator",
+  "repository": { "type": "git", "url": "https://github.com/Jesse-py/freelance-tax-estimator.git" },
+  "license": "MIT",
+  "engines": { "node": ">=14" }
+}

@@ -1,0 +1,222 @@
+{
+  "tax_year": 2027,
+  "ordinary_income_brackets": {
+    "single": [
+      {
+        "rate": 0.1,
+        "from": 0,
+        "to": 12800
+      },
+      {
+        "rate": 0.12,
+        "from": 12800,
+        "to": 52025
+      },
+      {
+        "rate": 0.22,
+        "from": 52025,
+        "to": 109125
+      },
+      {
+        "rate": 0.24,
+        "from": 109125,
+        "to": 208325
+      },
+      {
+        "rate": 0.32,
+        "from": 208325,
+        "to": 264550
+      },
+      {
+        "rate": 0.35,
+        "from": 264550,
+        "to": 661375
+      },
+      {
+        "rate": 0.37,
+        "from": 661375,
+        "to": null
+      }
+    ],
+    "married_filing_jointly": [
+      {
+        "rate": 0.1,
+        "from": 0,
+        "to": 25600
+      },
+      {
+        "rate": 0.12,
+        "from": 25600,
+        "to": 104050
+      },
+      {
+        "rate": 0.22,
+        "from": 104050,
+        "to": 218250
+      },
+      {
+        "rate": 0.24,
+        "from": 218250,
+        "to": 416650
+      },
+      {
+        "rate": 0.32,
+        "from": 416650,
+        "to": 529100
+      },
+      {
+        "rate": 0.35,
+        "from": 529100,
+        "to": 793650
+      },
+      {
+        "rate": 0.37,
+        "from": 793650,
+        "to": null
+      }
+    ],
+    "married_filing_separately": [
+      {
+        "rate": 0.1,
+        "from": 0,
+        "to": 12800
+      },
+      {
+        "rate": 0.12,
+        "from": 12800,
+        "to": 52025
+      },
+      {
+        "rate": 0.22,
+        "from": 52025,
+        "to": 109125
+      },
+      {
+        "rate": 0.24,
+        "from": 109125,
+        "to": 208325
+      },
+      {
+        "rate": 0.32,
+        "from": 208325,
+        "to": 264550
+      },
+      {
+        "rate": 0.35,
+        "from": 264550,
+        "to": 396825
+      },
+      {
+        "rate": 0.37,
+        "from": 396825,
+        "to": null
+      }
+    ],
+    "head_of_household": [
+      {
+        "rate": 0.1,
+        "from": 0,
+        "to": 18250
+      },
+      {
+        "rate": 0.12,
+        "from": 18250,
+        "to": 69650
+      },
+      {
+        "rate": 0.22,
+        "from": 69650,
+        "to": 109100
+      },
+      {
+        "rate": 0.24,
+        "from": 109100,
+        "to": 208300
+      },
+      {
+        "rate": 0.32,
+        "from": 208300,
+        "to": 264550
+      },
+      {
+        "rate": 0.35,
+        "from": 264550,
+        "to": 661350
+      },
+      {
+        "rate": 0.37,
+        "from": 661350,
+        "to": null
+      }
+    ]
+  },
+  "standard_deduction": {
+    "single": 16600,
+    "married_filing_jointly": 33200,
+    "married_filing_separately": 16600,
+    "head_of_household": 24925
+  },
+  "self_employment_tax": {
+    "net_earnings_factor": 0.9235,
+    "social_security_rate": 0.124,
+    "medicare_rate": 0.029,
+    "social_security_wage_base": 192300,
+    "minimum_net_earnings": 400
+  },
+  "additional_medicare_tax": {
+    "rate": 0.009,
+    "threshold": {
+      "single": 200000,
+      "married_filing_jointly": 250000,
+      "married_filing_separately": 125000,
+      "head_of_household": 200000
+    }
+  },
+  "qbi_deduction": {
+    "rate": 0.2,
+    "phase_in": {
+      "single": {
+        "threshold": 208300,
+        "end": 283300
+      },
+      "married_filing_jointly": {
+        "threshold": 416600,
+        "end": 566600
+      },
+      "married_filing_separately": {
+        "threshold": 208325,
+        "end": 283325
+      },
+      "head_of_household": {
+        "threshold": 208300,
+        "end": 283300
+      }
+    },
+    "minimum": {
+      "active_qbi_at_least": 1030,
+      "deduction": 415
+    }
+  },
+  "estimated_tax": {
+    "current_year_safe_harbor": 0.9,
+    "prior_year_safe_harbor": 1,
+    "prior_year_safe_harbor_high_agi": 1.1,
+    "high_agi_threshold": {
+      "default": 150000,
+      "married_filing_separately": 75000
+    },
+    "minimum_owed": 1000,
+    "due_dates": [
+      "Apr 15, 2027",
+      "Jun 15, 2027",
+      "Sep 15, 2027",
+      "Jan 18, 2028"
+    ],
+    "due_dates_confirmed": false
+  },
+  "sources": {
+    "brackets_standard_deduction_qbi": "Rev. Proc. 2026-35, https://www.irs.gov/pub/irs-drop/rp-26-35.pdf",
+    "social_security_wage_base": "SSA 2027 COLA fact sheet, https://www.ssa.gov/cola/",
+    "se_tax_safe_harbor_due_dates": "Rules from the 2026 Form 1040-ES; Jan 18, 2028 date computed (weekend + MLK Day), not yet confirmed by the IRS"
+  }
+}
