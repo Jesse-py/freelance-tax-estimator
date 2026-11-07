@@ -66,7 +66,7 @@ thresholds, QBI thresholds and phase-in ranges, safe harbor rules, and due dates
 | Year | Brackets, standard deduction, QBI | SS wage base |
 |---|---|---|
 | 2026 | [Rev. Proc. 2025-32](https://www.irs.gov/pub/irs-drop/rp-25-32.pdf) | $184,500 ([Form 1040-ES](https://www.irs.gov/pub/irs-pdf/f1040es.pdf)) |
-| 2027 | [Rev. Proc. 2026-35](https://www.irs.gov/pub/irs-drop/rp-26-35.pdf) | $192,300 ([SSA](https://www.ssa.gov/cola/)) |
+| 2027 | [Rev. Proc. 2026-35](https://www.irs.gov/pub/irs-drop/rp-26-35.pdf) | $192,300 ([SSA](https://www.ssa.gov/news/en/cola/factsheets/2027.html)) |
 
 The 2027 fourth-quarter due date (Jan 18, 2028) is computed from the weekend and holiday rules; the IRS hasn't
 published the 2027 Form 1040-ES yet.
